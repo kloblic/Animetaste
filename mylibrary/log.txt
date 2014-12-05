@@ -1,0 +1,89 @@
+Information:Gradle tasks [:app:assembleDebug]
+:app:preBuild
+:app:compileDebugNdk UP-TO-DATE
+:app:preDebugBuild
+:app:checkDebugManifest
+:app:preReleaseBuild
+:gif-library:compileLint
+:gif-library:copyReleaseLint UP-TO-DATE
+:gif-library:mergeReleaseProguardFiles UP-TO-DATE
+:gif-library:preBuild
+:gif-library:preReleaseBuild
+:gif-library:checkReleaseManifest
+:gif-library:prepareReleaseDependencies
+:gif-library:compileReleaseAidl UP-TO-DATE
+:gif-library:compileReleaseRenderscript UP-TO-DATE
+:gif-library:generateReleaseBuildConfig UP-TO-DATE
+:gif-library:generateReleaseAssets UP-TO-DATE
+:gif-library:mergeReleaseAssets UP-TO-DATE
+:gif-library:generateReleaseResValues UP-TO-DATE
+:gif-library:generateReleaseResources UP-TO-DATE
+:gif-library:packageReleaseResources UP-TO-DATE
+:gif-library:processReleaseManifest UP-TO-DATE
+:gif-library:processReleaseResources UP-TO-DATE
+:gif-library:generateReleaseSources UP-TO-DATE
+:gif-library:compileReleaseJava UP-TO-DATE
+:gif-library:processReleaseJavaRes UP-TO-DATE
+:gif-library:packageReleaseJar UP-TO-DATE
+:gif-library:compileReleaseNdk UP-TO-DATE
+:gif-library:packageReleaseJniLibs UP-TO-DATE
+:gif-library:packageReleaseLocalJar UP-TO-DATE
+:gif-library:packageReleaseRenderscript UP-TO-DATE
+:gif-library:bundleRelease UP-TO-DATE
+:library:compileLint
+:library:copyReleaseLint UP-TO-DATE
+:library:mergeReleaseProguardFiles UP-TO-DATE
+:library:preBuild
+:library:preReleaseBuild
+:library:checkReleaseManifest
+:library:prepareReleaseDependencies
+:library:compileReleaseAidl UP-TO-DATE
+:library:compileReleaseRenderscript UP-TO-DATE
+:library:generateReleaseBuildConfig UP-TO-DATE
+:library:generateReleaseAssets UP-TO-DATE
+:library:mergeReleaseAssets UP-TO-DATE
+:library:generateReleaseResValues UP-TO-DATE
+:library:generateReleaseResources UP-TO-DATE
+:library:packageReleaseResources UP-TO-DATE
+:library:processReleaseManifest UP-TO-DATE
+:library:processReleaseResources UP-TO-DATE
+:library:generateReleaseSources UP-TO-DATE
+:library:compileReleaseJava UP-TO-DATE
+:library:processReleaseJavaRes UP-TO-DATE
+:library:packageReleaseJar UP-TO-DATE
+:library:compileReleaseNdk UP-TO-DATE
+:library:packageReleaseJniLibs UP-TO-DATE
+:library:packageReleaseLocalJar UP-TO-DATE
+:library:packageReleaseRenderscript UP-TO-DATE
+:library:bundleRelease UP-TO-DATE
+:app:prepareAnimetasteGifLibraryUnspecifiedLibrary UP-TO-DATE
+:app:prepareAnimetasteLibraryUnspecifiedLibrary UP-TO-DATE
+:app:prepareComAndroidSupportAppcompatV71900Library UP-TO-DATE
+:app:prepareComGithubJohnpersanoSupertoasts134Library UP-TO-DATE
+:app:prepareImDinoDbinspector105Library UP-TO-DATE
+:app:prepareDebugDependencies
+:app:compileDebugAidl UP-TO-DATE
+:app:compileDebugRenderscript UP-TO-DATE
+:app:generateDebugBuildConfig UP-TO-DATE
+:app:generateDebugAssets UP-TO-DATE
+:app:mergeDebugAssets UP-TO-DATE
+:app:generateDebugResValues UP-TO-DATE
+:app:generateDebugResources UP-TO-DATE
+:app:mergeDebugResources UP-TO-DATE
+:app:processDebugManifest UP-TO-DATE
+:app:processDebugResources UP-TO-DATE
+:app:generateDebugSources UP-TO-DATE
+:app:compileDebugJava
+/media/pingliu/windows/Users/Administrator/Desktop/diandi/整库/Animetaste/app/src/main/java/com/zhan_dui/animetaste/PlayActivity.java
+注: 某些输入文件使用或覆盖了已过时的 API。
+注: 有关详细信息, 请使用 -Xlint:deprecation 重新编译。
+注: /media/pingliu/windows/Users/Administrator/Desktop/diandi/整库/Animetaste/app/src/main/java/com/zhan_dui/download/alfred/missions/Mission.java使用了未经检查或不安全的操作。
+注: 有关详细信息, 请使用 -Xlint:unchecked 重新编译。
+1 个错误
+Error:Execution failed for task ':app:compileDebugJava'.
+> Compilation failed; see the compiler error output for details.
+Information:BUILD FAILED
+Information:Total time: 6.217 secs
+Information:2 errors
+Information:0 warnings
+Information:See complete output in console

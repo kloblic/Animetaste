@@ -1,0 +1,55 @@
+apply plugin: 'com.android.library'
+
+android {
+    compileSdkVersion 20
+    buildToolsVersion "20.0.0"
+
+
+    defaultConfig {
+        applicationId "diandi.library"
+        minSdkVersion 14
+        targetSdkVersion 20
+        versionCode 1
+        versionName "1.0"
+    }
+
+
+    buildTypes {
+        release {
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    compile 'com.android.support:appcompat-v7:19.0.0'
+    compile files('libs/ShareSDK-Core-2.1.2.jar')
+    compile files('libs/ShareSDK-Douban-2.1.2.jar')
+    compile files('libs/ShareSDK-Dropbox-2.1.2.jar')
+    compile files('libs/ShareSDK-Email-2.1.2.jar')
+    compile files('libs/ShareSDK-Evernote-2.1.2.jar')
+    compile files('libs/ShareSDK-Facebook-2.1.2.jar')
+    compile files('libs/ShareSDK-Flickr-2.1.2.jar')
+    compile files('libs/ShareSDK-Foursquare-2.1.2.jar')
+    compile files('libs/ShareSDK-GooglePlus-2.1.2.jar')
+    compile files('libs/ShareSDK-Instagram-2.1.2.jar')
+    compile files('libs/ShareSDK-KaiXin-2.1.2.jar')
+    compile files('libs/ShareSDK-Linkedin-2.1.2.jar')
+    compile files('libs/ShareSDK-NetEaseMicroBlog-2.1.2.jar')
+    compile files('libs/ShareSDK-Pinterest-2.1.2.jar')
+    compile files('libs/ShareSDK-QQ-2.1.2.jar')
+    compile files('libs/ShareSDK-QZone-2.1.2.jar')
+    compile files('libs/ShareSDK-Renren-2.1.2.jar')
+    compile files('libs/ShareSDK-ShortMessage-2.1.2.jar')
+    compile files('libs/ShareSDK-SinaWeibo-2.1.2.jar')
+    compile files('libs/ShareSDK-SohuSuishenkan-2.1.2.jar')
+    compile files('libs/ShareSDK-SouhuMicroBlog-2.1.2.jar')
+    compile files('libs/ShareSDK-TencentWeibo-2.1.2.jar')
+    compile files('libs/ShareSDK-Tumblr-2.1.2.jar')
+    compile files('libs/ShareSDK-Twitter-2.1.2.jar')
+    compile files('libs/ShareSDK-VKontakte-2.1.2.jar')
+    compile files('libs/ShareSDK-Wechat-2.1.2.jar')
+    compile files('libs/ShareSDK-Wechat-Core-2.1.2.jar')
+    compile files('libs/ShareSDK-Wechat-Moments-2.1.2.jar')
+    compile files('libs/ShareSDK-YouDao-2.1.2.jar')
+}
